@@ -1,0 +1,17 @@
+.Dash-page{
+    background-color: rgb(231, 230, 230);
+
+}
+
+/* .dash{
+
+} */
+
+.Dashboard{
+    display: flex;
+    flex-direction: row;
+    gap:0rem;
+    /* padding: 3rem; */
+    /* margin-left: 3.9rem; */
+    /* margin-top: 3rem; */
+}

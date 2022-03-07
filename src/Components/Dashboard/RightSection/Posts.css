@@ -1,0 +1,37 @@
+.My-Posts{
+    padding: 0.7rem;
+    background-color: white;
+    width: 94%;
+    height:fit-content;
+
+}
+
+.My-Posts>h3{
+    font-size: 17px;
+    
+}
+
+.post-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frames{
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:0.1rem;
+    margin-top: 8px;
+
+}
+
+.frame{
+    border: 1px solid grey;
+}
+
+.panda{
+    height: 8vw;
+    width: 8.5vw;
+}

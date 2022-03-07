@@ -1,0 +1,50 @@
+.post-container{
+    background-color: white;
+    /* border:2px solid black; */
+    padding:0.8rem;
+}
+
+.post-container>h3{
+    font-size: 16px;
+}
+
+.post-events{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    flex-wrap: wrap;
+    padding:0.7rem;
+}
+
+.post-event{
+    background-color: rgb(233, 227, 227);    
+    padding-left: 0.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.2rem;
+    border-radius: 15px;
+    line-height: 18px;
+}
+
+.post-event:hover{
+    cursor: pointer;
+    background-color: rgb(201, 195, 119);
+}
+.post-event>h4{
+    /* text-decoration: underline; */
+    font-size: 14px;
+    color:rgb(245, 106, 13);
+}
+
+.post-event>h4:hover{
+    color:rgb(21, 21, 145);
+}
+
+.post-event>p{
+    font-size: 13px;
+    margin: 3px;
+    color:rgb(27, 27, 26);
+}
+
+.post-event>p:hover{
+    color:rgb(240, 22, 6);
+}

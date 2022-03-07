@@ -1,0 +1,36 @@
+h3{
+    color:rgb(75, 71, 71);
+}
+
+h4{
+    color:rgb(107, 105, 105);
+}
+
+h4:hover{
+    color:rgb(95, 19, 19);
+    
+}
+
+.about-container{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 6vw;
+    width: 50.6vw;
+    padding: 1.3rem;
+    border-radius: 12px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:space-around; */
+    /* border: 2px solid black; */
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.about>p{
+    font-size: 14px;
+}

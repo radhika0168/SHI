@@ -1,0 +1,39 @@
+.activity-container{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 6vw;
+    width: 50.6vw;
+    padding: 1.3rem;
+    border-radius: 12px;
+    /* border: 2px solid black; */
+}
+
+
+.Like-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.Like-post{
+    background-color: rgb(207, 203, 203);
+    padding: 0.6rem 0rem 0.3rem 1rem;
+    border-radius: 23px;
+    line-height: 1.4rem;
+    line-break: loose;
+}
+
+.about-activity{
+    font-size: 13px;
+}
+
+.about-activity>span{
+    /* font-size: 14px; */
+    font-weight: 34px;
+}
+
+.activity{
+    font-size: 20px;
+}

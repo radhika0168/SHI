@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0; 
+}
+
+.Nav-container{
+    /* border:2px solid black; */
+    width: 54vw;
+    height:45vw;
+    margin:0vw 6vw;
+    background-color: white;
+}
+
+.bg-img{
+    border-radius:10px 10px 0px 0px ;
+    width:54vw;
+}
+
+.Profile{
+    border-radius:30rem;
+    /* border: 10px solid rgb(16, 6, ; */
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    margin: -5rem 1rem ;
+    background-color: aliceblue;
+    /* border:2px solid black; */
+
+}
+
+.profile-pic{
+    width:8.4rem;
+    height:8rem;
+    border-radius: 30rem;
+    margin:4%;
+    /* border: 2px solid black; */
+    
+}
+
+.info{
+    margin: 2.4rem 0rem 0rem 0rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    line-height: 1.3rem;
+}
+
+.username{
+    font-size: 27px;
+    font-weight: bold;
+}
+.connections{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    color:blue;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    gap:1.3rem;
+    margin-bottom: 7px;
+    /* border:2px solid black; */
+}
+
+.options>button{
+    padding: 7px;
+    border-radius: 1rem;
+    /* background-color: rgb(236, 232, 232); */
+    
+}
+
+.options>button:hover{
+    transform: scale(1.1) ;
+    transition: 0.25s;
+    color:white;
+    background-color:blue;
+    cursor:pointer;
+}
+
+.options>button:not(:hover){
+    transition: 0.25s;
+}
+
+.open{
+    background-color: blue;
+    color:white;
+}
+
+.toasting{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    padding: 0.4rem;
+}
+
+.hirirng{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid rgb(68, 68, 68);
+    padding: 11px;
+    font-size: 14px;
+    justify-content: space-between;
+    background-color: rgb(207, 203, 203);
+    border-radius: 10px 10px 0px 0px ;
+    
+}
+
+.sec1>p{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.sec1{
+    line-height:22px;
+}
+

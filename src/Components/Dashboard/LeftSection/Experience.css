@@ -1,0 +1,57 @@
+.experience-container{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 6vw;
+    width: 50.3vw;
+    padding: 1.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    border-radius: 12px;
+}
+
+.Exp-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Exp-title>h2{
+    font-size: 1.3rem;
+}
+
+.Experience{
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+    padding: 0.8rem;
+    /* background-color: rgb(226, 223, 223); */
+    border-radius: 20px ;
+    border: 1px solid rgb(192, 190, 190);
+    width: 70%;
+}
+
+.Experience:hover{
+    background-color: rgb(243, 243, 243);
+    color:darkslategrey;
+}
+
+.Logo{
+    width: 32px;
+    height: 30px;
+}
+
+.exp-info{
+    line-height: 1.1rem;
+    word-spacing: 4px;
+}
+
+.oranisation-name{
+    margin-top: 4px;
+    word-spacing: 2px;
+}
+
+.Exp-button{
+    color:rgb(56, 56, 58);
+}

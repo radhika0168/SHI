@@ -1,0 +1,10 @@
+.Right-container{
+    /* border: 2px solid black; */
+    width: 30%;
+    margin-left:-64px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
